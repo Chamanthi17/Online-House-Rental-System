@@ -4,21 +4,6 @@
 
 This project was my **second self-built full-stack web application**, developed to improve my web development skills by implementing CRUD operations, user roles, and interaction with a backend database.
 
----
-
-## 📖 Project Description
-
-In today's fast-paced world, manually searching for rental properties is time-consuming and inefficient. This system allows:
-
-- Owners to list, update, and manage rental properties.
-- Renters to search properties based on location or features.
-- All users to register, log in, and log out securely.
-- View of house location through Google Maps.
-- Contacting owners directly via email.
-
-The platform supports both **owners** and **renters** with separate modules and functionalities based on their roles.
-
----
 
 ## ✨ Core Features
 
@@ -38,7 +23,6 @@ The platform supports both **owners** and **renters** with separate modules and 
 - View property location on Google Maps
 - Contact owners directly via email
 
----
 
 ## 🛠️ Tech Stack
 
@@ -47,28 +31,25 @@ The platform supports both **owners** and **renters** with separate modules and 
 - **Database**: MySQL  
 - **Extras**: Google Maps API integration (view location)
 
----
 
 ## ▶️ How to Run Locally
 
 1. Clone this repository:
-   ```bash
+  
    git clone https://github.com/Chamanthi17/online-rental-house-management.git
 
-Import the SQL file (rental_house.sql) into your MySQL database using phpMyAdmin.
+2. Import the SQL file (rental_house.sql) into your MySQL database using phpMyAdmin.
 
-Move the project folder to the htdocs directory of your local XAMPP server.
+3. Move the project folder to the htdocs directory of your local XAMPP server.
 
-Start Apache and MySQL via XAMPP.
+4. Start Apache and MySQL via XAMPP.
 
-Access the app via your browser:
+5. Access the app via your browser:
 
-arduino
-Copy
-Edit
-http://localhost/online-rental-house-management/index.php
+   http://localhost/online-rental-house-management/index.php
 
- Future Enhancements
+## Future Enhancements
+
 Booking system to request a rental
 
 Admin dashboard to monitor listings
@@ -79,6 +60,8 @@ Review system for properties
 
 Responsive mobile-first design
 
-🙋‍♀️ Author
-Chamanthi Pyneni
+## 🙋‍♀️ Author
+
+**Chamanthi Pyneni**
+
 This was my second personal project where I deepened my understanding of web application development, database integration, and building role-based systems with real-world functionality.
